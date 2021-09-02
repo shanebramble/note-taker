@@ -1,14 +1,28 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "",
+  "description": "An application called Note Taker that can be used to write and save notes. ",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "",
+  "author": "Shane Bramble-Wade",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
-  }
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shanebramble/note-taker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shanebramble/note-taker/issues"
+  },
+  "homepage": "https://github.com/shanebramble/note-taker#readme",
+  "keywords": [
+    "notes",
+    "notetaker"
+  ]
 }
